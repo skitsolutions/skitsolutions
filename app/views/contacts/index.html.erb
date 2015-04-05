@@ -1,0 +1,58 @@
+  <div class="col_w420 float_l">
+            <div id="contact_form">
+        
+                <h4><b>Get Quote Form</b></h4>
+                
+                <%= form_for(@contact) do |f| %>
+		 <% if @contact.errors.any? %>
+		    <div id="error_explanation">
+		      <h2><%= pluralize(@contact.errors.count, "error") %> prohibited this contact from being saved:</h2>
+
+		      <ul>
+		      <% @contact.errors.full_messages.each do |message| %>
+			<li><%= message %></li>
+		      <% end %>
+		      </ul>
+		    </div>
+		  <% end %>
+					
+			<label for="author">Name:</label> <%= f.text_field :name %>
+			<div class="cleaner h10"></div>
+										
+			<label for="email">Email:</label> <%= f.text_field :email %>
+			<div class="cleaner h10"></div>
+			
+			<label for="email">Mobile:</label> <%= f.text_field :mobile %>
+			<div class="cleaner h10"></div>
+								
+			<label for="subject">Subject:</label> <%= f.text_field :category %>
+			<div class="cleaner h10"></div>
+				
+			<label for="text">Message:</label> <%= f.text_field :subject %>
+			<div class="cleaner h10"></div>	
+			
+			<label for="text">Description:</label> <%= f.text_area :description %>
+			<div class="cleaner h10"></div>				
+									
+			<%= f.submit %>
+
+			
+	<% end %>
+
+            </div> 
+        </div>
+            
+        <div class="col_w420 float_r">
+            <h4>Where We Are</h4>
+          
+            <div class="cleaner h30"></div>
+            
+            <h4>Contact</h4>
+            <h6><strong>SK IT Solutions</strong></h6>
+             
+            <strong>Mr.Selvakumar C:</strong>+91 9444314057<br />
+            <strong>Mr.Kalishwaran S:</strong>+91 9941442050<br/>
+	    <strong>Email:</strong> <a href="mailto:info@company.com">skitsolutionsltd@gmail.com</a> 
+        </div>    	
+
+    	<div class="cleaner"></div>

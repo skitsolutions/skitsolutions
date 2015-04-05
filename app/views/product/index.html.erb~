@@ -1,0 +1,57 @@
+ <div id="gallery">
+        	<div class="gallery_box">
+                <a class="lightbox" href="images/gallery/image_01_b.jpg" title="Cras nec nisl a enim ornare imperdiet.">
+				<img width="300" height="150" src="images/gallery/image_01.jpg" alt="Image 01" class="image_wrapper" />
+                </a>
+                <p>Cras nec nisl a enim ornare imperdiet. Donec ornare hendrerit metus et.</p>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+            <div class="gallery_box">
+                <a class="lightbox" href="images/gallery/image_02_b.jpg" title="Sed in urna neque nec arcu arcu, sed pretium lacus.">
+                    <img src="images/gallery/image_02.jpg" alt="Image 02" class="image_wrapper" />
+                </a>
+                <p>Sed in urna neque nec arcu arcu, sed pretium lacus. Aliquam in odio ut ipsum facilisis.</p>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+            <div class="gallery_box gb_lmb">
+                <a class="lightbox" href="images/gallery/image_03_b.jpg" title="Integer est sem, dignissim quis auctor vel.">
+                    <img src="images/gallery/image_03.jpg" alt="Image 03" class="image_wrapper" />
+                </a>
+                <p>Integer est sem, dignissim quis auctor vel, massa ligula vel mi semper tempus.</p>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+            <div class="gallery_box">
+                <a class="lightbox" href="images/gallery/image_04_b.jpg" title="Vivamus volutpat, elit non tempor vehicula.">
+	                <img src="images/gallery/image_04.jpg" alt="Image 04" class="image_wrapper" />
+                </a>
+                <p><b><span class="orange">too</span><span class="green">plate</span></b> provides free HTML CSS templates for your websites.</p>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+            <div class="gallery_box">
+                <a class="lightbox" href="images/gallery/image_05_b.jpg" title="Nulla pharetra blandit nunc, ut volutpat leo tincidunt eget.">
+                	<img src="images/gallery/image_05.jpg" alt="Image 05" class="image_wrapper" />
+                </a>
+                <p>Nulla pharetra blandit nunc, ut volutpat leo tincidunt eget. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.</p>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+            <div class="gallery_box gb_lmb">
+                <a class="lightbox" href="images/gallery/image_06_b.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+                <img src="images/gallery/image_06.jpg" alt="Image 06" class="image_wrapper" />
+                </a>
+                <p>Nunc at lectus justo, in auctor metus. Etiam vel orci vitae elit laoreet et  mauris.</p>
+                <a href="#" class="more float_l">Visit</a>
+                <a href="#" class="more float_l">Detail</a>
+                <div class="cleaner"></div>
+			</div>
+        </div> 
+             

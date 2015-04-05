@@ -1,0 +1,77 @@
+# encoding: UTF-8
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Skit</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '803710259711466',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+
+    // ADD ADDITIONAL FACEBOOK CODE HERE
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<div id="tooplate_wrapper">
+
+	<div id="tooplate_header">
+        <div id="site_title">
+        	<h1><a href="#">SK IT SOLUTIONS</a></h1>
+        </div>
+        <div id="tooplate_menu">
+            <ul>
+                <li><a href="/" class="current" id="home" onclick="changeLook(this)">Home</a></li>
+                <li><a href="/products" id="products" onclick="changeLook(this)">Products</a></li>
+                <li><a href="/contacts" id="contacts" onclick="changeLook(this)">Contact Us</a></li>
+            </ul>    	
+        </div> <!-- end of tooplate_menu -->
+    </div> <!-- end of forever header -->
+    
+    <!--<div id="tooplate_middle">
+
+        <div id="mid_left">
+            <div id="mid_title">
+               Excellence Delivered	
+            </div>
+            <p>We're here provide you a complete IT solutions starting from Sales, Component level service, Web development (Starting from design to hosting) </p>
+	    <p>We're a 2-member team currently with the professional IT experience of 5+ years. Mr.Selvakumar C deals with web development and Mr.Kalishwaran S deals with hardware solutions.</p>
+	    
+	  	</div>
+        <div class="cleaner"></div>
+	</div> <!-- end of middle -->-->
+    
+    <!--<div id="tooplate_main_top"></div>-->
+    <div id="tooplate_main">
+    	
+<%= yield %>
+    	<div class="cleaner"></div>
+    </div> <!-- end of main -->
+<!--    <div id="tooplate_main_bottom"></div>->
+
+</div> <!-- wrapper -->
+
+<div id="tooplate_footer_wrapper">
+	<div id="tooplate_footer">
+        Designed & Developed by SK IT Solutions. Copyrights Reserved.
+        
+	</div>
+</div>
+
+</body>
+</html>

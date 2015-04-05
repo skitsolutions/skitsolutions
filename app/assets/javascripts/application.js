@@ -15,8 +15,3 @@
 //= require turbolinks
 //= require_tree .
 
-function changeLook(this)
-{
-alert("In function");
-alert(this);
-}

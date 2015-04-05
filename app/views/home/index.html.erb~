@@ -1,0 +1,47 @@
+        <div class="col_w900">
+            	
+                <img src="/assets/logo.png" alt="Image 01" class="image_wrapper image_fl" />
+                <p><em>We're here provide you a complete IT solutions starting from Sales, Component level service, Web development (Starting from design to hosting) </em></p>
+            
+            <p align="justify">We're a 2-member team currently with the professional IT experience of 5+ years. Mr.Kumar C deals with web development and Mr.Eswaran S deals with hardware solutions.</p>	
+              <div class="cleaner"></div>
+            </div>
+    
+    		<div class="col_w900 col_w900_last">
+            	<div class="col_allw280 fp_service_box">
+                	<div class="con_tit_02">Web Design</div>
+                    <img src="/assets/onebit_08.png" alt="image 8" />
+                    <p>We can design both static and dynamic pages using either standard HTML templates or using custom bootstrap designs according to the customer needs. We place banners and images at correct place to make the look and feel of website so awesome.</p>
+					
+                </div>
+          		<div class="col_allw280 fp_service_box">
+                	<div class="con_tit_02">Web Development & Hosting</div>
+                    <img src="assets/onebit_15.png" alt="image 15" />
+                    <p>We generally use latest of Ruby on Rails (RoR), so the development of website happens much faster. We can apply the website deisigns made on development, we can both develop static and dynamic pages and we are an expert in this area to make your website runs smooth and fast.  We can also host the website according to the customer requirement. </p>
+                    
+                </div>
+		<div class="cleaner h30"></div>
+
+                <div class="col_allw280 fp_service_box">
+                	<div class="con_tit_02">Sales</div>
+                    <img src="assets/onebit_16.png" alt="image 16" />
+                    <p>We also sell PC's, Laptops, Printers, Scanners and all Computer accessories. Greatest advantages is that we use to sell it at your doorsteps. We can also help you to buy an aseembled system, so that you can purchase the best in the market  i.e.., Mother board, Monitors, Keyboards etc can be off different makers</p>
+                    
+                </div>
+
+          		<div class="col_allw280 fp_service_box">
+                	<div class="con_tit_02">Component Level Service</div>
+                    <img src="assets/onebit_17.png" alt="image 17" />
+                    <p>We also an expert in finding out the problems of your digital machine  much faster and accurate and provide you a component level service at your doorsteps </p>
+                </div>
+                <div class="cleaner h30"></div>
+						<div class="col_allw280 fp_service_box col_full ">
+                	<div class="con_tit_02">Support</div>
+                    <img src="assets/onebit_18.png" alt="image 18" />
+                    <p>We will be providing you a complete support especially on software services like web design, development and hosting. We also provide you a free support for 45 days from the delivery of website for doing minor level changes and bug fixing. </p>
+                    
+                </div>
+                <div class="cleaner h30"></div>
+                <div class="cleaner"></div>
+            </div>
+    	

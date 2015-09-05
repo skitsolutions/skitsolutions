@@ -1,12 +1,10 @@
 class ContactsController < ApplicationController
   before_action :set_contact, only: [:show, :edit, :update, :destroy]
-skip_before_filter :verify_authenticity_token
 
   # GET /contacts
   # GET /contacts.json
   def index
     @contacts = Contact.all
-    @contact = Contact.new
   end
 
   # GET /contacts/1

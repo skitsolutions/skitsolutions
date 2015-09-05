@@ -11,7 +11,7 @@ body {
 	font-size: 13px;
 	line-height: 1.7em; 
 	background-color: #090100;
-	background-image: url(../assets/body1.jpg);
+	background-image: url(../assets/bg4.jpg);
 	background-position: center top;
 	background-repeat: no-repeat;
 }
@@ -145,7 +145,7 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	width: 1250px;
 	padding: 0 35px;
 	margin: 0 auto;
-	background: url(../assets/body1.jpg) top center no-repeat;
+	background: url(../assets/bg1.jpg) top center no-repeat;
 }
 
 #tooplate_header {
@@ -165,11 +165,12 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 
 #site_title h1 a { 
 	display: block; 
-	width: 445px; 
-	height: 46px; 
+	width: 1098px; 
+	height: 146px; 
 	color: #fff; 
 	text-indent: -10000px; 
-	background: url(../assets/banner_logo.png) no-repeat top left; 
+	margin-left: 52px;
+	background: url(../assets/banner_logo.jpg) no-repeat top left; 
 }
 
 /* menu */
